@@ -7,7 +7,7 @@ module.exports = defineConfig({
         target: 'http://139.224.211.95:6000',
         changeOrigin: true,
         secure: false,
-        pathRewrite: { '^/api': '' }
+        // pathRewrite: { '^/api': '' }
       }
     }
   }
