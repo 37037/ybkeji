@@ -4,5 +4,5 @@ services:
   frontend:
     build: .
     ports:
-      - "8080:80"   # 本地 8080 映射到容器的 80
+      - "80:80"   # 本地 8080 映射到容器的 80
     restart: unless-stopped
